@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="28.013536" lon="-80.588317">
+  <name>711 Cobblestone Ln NE Palm Bay, Fl 32905</name>
+  <desc>711 Cobblestone Ln NE, Palm Bay, FL 32905, USA</desc>
+</wpt>
+<wpt lat="28.136467" lon="-80.631216">
+  <name>1807 Guava Ave Melbourne, Fl 32935</name>
+  <desc>1807 Guava Ave, Melbourne, FL 32935, USA</desc>
+</wpt>
+<wpt lat="28.115961" lon="-80.655182">
+  <name>558 Croton Rd Melbourne, Fl 32935</name>
+  <desc>558 Croton Rd, Melbourne, FL 32935, USA</desc>
+</wpt>
+<wpt lat="28.1409426" lon="-80.6624682">
+  <name>2308 Blue Ridge Ave Melbourne, Fl 32935</name>
+  <desc>2308 Blue Ridge Ave, Melbourne, FL 32935, USA</desc>
+</wpt>
+<wpt lat="28.210516" lon="-80.676468">
+  <name>3717 Cappio Dr Melbourne, Fl 32940</name>
+  <desc>3717 Cappio Dr, Melbourne, FL 32940, USA</desc>
+</wpt>
+<wpt lat="28.275395" lon="-80.745263">
+  <name>3368 Imperata Dr Rockledge, Fl 32955</name>
+  <desc>3368 Imperata Dr, Rockledge, FL 32955, USA</desc>
+</wpt>
+<wpt lat="28.012881" lon="-80.6980899">
+  <name>949 Serenade St NW Palm Bay, Fl 32907</name>
+  <desc>949 Serenade St NW, Palm Bay, FL 32907, USA</desc>
+</wpt>
+<wpt lat="27.97612" lon="-80.648878">
+  <name>850 Vantage St SE Palm Bay, Fl 32909</name>
+  <desc>850 Vantage St SE, Palm Bay, FL 32909, USA</desc>
+</wpt>
+</gpx>
