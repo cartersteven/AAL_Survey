@@ -16,7 +16,7 @@ navbar{
     -1px 1px 0 #000,
      1px 1px 0 #000;
     position: relative;
-    background: #ccc url("wia/cover.jpg") center center;
+    background: #ccc url("img/cover.jpg") center center;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -56,5 +56,8 @@ video{
     display: block;
 }
 h2{
+    text-align: center;
+}
+.center{
     text-align: center;
 }

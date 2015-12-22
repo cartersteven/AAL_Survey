@@ -6,56 +6,56 @@ $(document).ready(function(){
     //Home
     $("#homeButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#home").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#home").fadeIn("fast");
         
     });
     
     //About
     $("#aboutButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#about").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#about").fadeIn("fast");
         
     });
     
     //Quote
     $("#quoteButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#quote").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#quote").fadeIn("fast");
         
     });
     
     //Survey
     $("#surveyButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#survey").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#survey").fadeIn("fast");
         
     });
     
     //Elevation
      $("#elevationButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#elevation").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#elevation").fadeIn("fast");
         
     });
     
     //Where
     $("#whereButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#where").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#where").fadeIn("fast");
         
     });
     
     //Contact
     $("#ContactButton").click(function(){
         
-        $(".pageThing").hide("fast");
-        $("#Contact").show("fast");
+        $(".pageThing").fadeOut("fast");
+        $("#Contact").fadeIn("fast");
         
     });
     

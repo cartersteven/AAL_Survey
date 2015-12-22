@@ -45,7 +45,6 @@
               <li><a href="#" id="homeButton">Home</a></li>
               <li><a href="#" id="aboutButton">About</a></li>
               <li><a href="#" id="quoteButton">Get a Quote</a></li>
-              <li><a href="#" id="whereButton">Where Have We Surveyed?</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requests <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -54,6 +53,9 @@
                 </ul>
               </li>
             <li><a href="#" id="contactButton">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="./">Sign In</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -124,8 +126,8 @@
                     <div class="col-sm-6">
                         <h2>Watch out latest commercial!</h2>
                         <video width="320" height="240" controls>
-                            <source src="wia/AAL_Commercial_Small.mov" type="video/mp4" />
-                            <source src="wia/AAL_Commercial_Small.ogv" type="video/ogg" />
+                            <source src="r_media/AAL_Commercial_Small.mov" type="video/mp4" />
+                            <source src="r_media/AAL_Commercial_Small.ogv" type="video/ogg" />
     Your browser does not support HTML5 Video. Consider a modern browser like <a href="http://google.com/chrome">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>.
                         </video>
                     </div>
@@ -161,7 +163,58 @@
             
             <!-- This is the Quote div -->
             <div class="pageThing" id="quote">
-                
+                <div class="col-lg-12 col-md-12 col-md-12 col-xs-12">
+                    <h2>Want a Quote?</h2>
+                    <p class="center">Please fill out the information that you know.</p>
+                </div>
+                <form>
+                <div class="col-lg-6 col-md-6 col-md-6 col-xs-12">
+                    <h3>Contact Info</h3>
+                    <fieldset class="form-group">
+                        <label for="requested">Requested By</label>
+                        <input type="text" class="form-control" id="requested" placeholder="John Smith">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" class="form-control" id="company" placeholder="TEC Mortgage Company">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="(321) 768-8110">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="fax">Fax</label>
+                        <input type="text" class="form-control" id="fax" placeholder="(321) 952-9771">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="example@domain.com">
+                    </fieldset>
+                </div>
+                <div class="col-lg-6 col-md-6 col-md-6 col-xs-12">
+                    <h3>Property Info</h3>
+                    <fieldset class="form-group">
+                        <label for="street">Street Address</label>
+                        <input type="text" class="form-control" id="street" placeholder="1600 Pennsylvania Dr">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="city">City and Zip</label>
+                        <input type="text" class="form-control" id="city" placeholder="Melbourne, 32904">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="phone">Lot Number(s)</label>
+                        <input type="text" class="form-control" id="phone" placeholder="(321) 768-8110">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="fax">Fax</label>
+                        <input type="text" class="form-control" id="fax" placeholder="(321) 952-9771">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="example@domain.com">
+                    </fieldset>
+                </div>
+                </form>
             </div>
             
             <!-- This is the Where div -->
