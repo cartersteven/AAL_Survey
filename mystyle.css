@@ -39,14 +39,11 @@ h1{
 }
 .footer {
     text-align: center;
-  position: fixed;
-  bottom: 0;
-left: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 85px;
-  background-color: #f5f5f5;
-    border-top: 1px black solid;
+    /* Set the fixed height of the footer here */
+    height: 85px;
+    background-color: #f5f5f5;
+    border: 1px black solid;
+    margin-top: 1em;
 }
 .lastitem{
     margin-bottom: 100px;
@@ -60,4 +57,7 @@ h2{
 }
 .center{
     text-align: center;
+}
+.topspace{
+    margin-top:1em;
 }
